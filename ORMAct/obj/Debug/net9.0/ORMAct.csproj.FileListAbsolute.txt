@@ -157,3 +157,4 @@ C:\Users\extcrmh\source\repos\ORMAct\ORMAct\obj\Debug\net9.0\refint\ORMAct.dll
 C:\Users\extcrmh\source\repos\ORMAct\ORMAct\obj\Debug\net9.0\ORMAct.pdb
 C:\Users\extcrmh\source\repos\ORMAct\ORMAct\obj\Debug\net9.0\ORMAct.genruntimeconfig.cache
 C:\Users\extcrmh\source\repos\ORMAct\ORMAct\obj\Debug\net9.0\ref\ORMAct.dll
+C:\Users\extcrmh\source\repos\ORMAct\ORMAct\obj\Debug\net9.0\ORMAct.sourcelink.json

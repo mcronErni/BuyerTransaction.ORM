@@ -13,7 +13,7 @@ namespace ORMAct.Model
         [Required]
         public decimal PriceAtTransaction { get; set; }
 
-        public required ICollection<TransactionModel> TransactionModel { get; set; }
+        public required Transaction TransactionModel { get; set; }
 
         public required Product Product { get; set; }
     }

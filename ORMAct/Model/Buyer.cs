@@ -19,7 +19,7 @@ namespace ORMAct.Model
         [Required]
         public required string BuyerStatus { get; set; } // Active, Deleted, Deactivated, Banned
 
-        public ICollection<TransactionModel>? Transactions { get; set; }
+        public ICollection<Transaction>? Transactions { get; set; }
 
     }
 }

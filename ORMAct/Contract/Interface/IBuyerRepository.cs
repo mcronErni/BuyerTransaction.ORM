@@ -6,7 +6,7 @@ namespace ORMAct.Contract.Interface
     {
         public Task<ICollection<Buyer>> Get();
         public Task<Buyer?> GetBuyerbyId(int id);
-        public Task<Buyer?> CreateBuyer(Buyer buyer);
+        public Task<Buyer> CreateBuyer(Buyer buyer);
         public Task<Buyer?> UpdateBuyer(int id, Buyer buyer);
         public Task<Buyer?> DeleteBuyer(int id);
     }

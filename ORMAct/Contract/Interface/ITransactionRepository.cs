@@ -4,7 +4,7 @@ namespace ORMAct.Contract.Interface
 {
     public interface ITransactionRepository
     {
-        public Task<TransactionModel> UpdateTransaction(int id, TransactionModel transaction);
-        public Task<TransactionModel> CreateTransaction(TransactionModel transaction);
+        public Task<Transaction> UpdateTransaction(int id, Transaction transaction);
+        public Task<Transaction> CreateTransaction(Transaction transaction);
     }
 }

@@ -13,9 +13,9 @@ namespace ORMAct.Model
         [Required]
         public int Stock { get; set; }
         [Required]
-        public string ProductStatus { get; set; } // Deleted, Active
+        public required string ProductStatus { get; set; } // Deleted, Active
 
-        public ICollection<TransactionProduct>? Transaction_Product { get; set; }
+        public ICollection<TransactionProduct>? TransactionProduct { get; set; }
 
     }
 }

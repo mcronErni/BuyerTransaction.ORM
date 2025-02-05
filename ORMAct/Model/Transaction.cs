@@ -2,8 +2,9 @@
 
 namespace ORMAct.Model
 {
-    public class TransactionModel
+    public class Transaction
     {
+        [Key]
         public int TransactionId { get; set; }
         [Required]
         public required int BuyerId { get; set; }
@@ -13,6 +14,6 @@ namespace ORMAct.Model
         public required string TransactionStatus { get; set; } // Completed OR Pending, Cancelled
 
         public required Buyer Buyer { get; set; }
-        public ICollection<TransactionProduct> TransactionProducts { get; set; }
+        public ICollection<TransactionProduct>? TransactionProducts { get; set; }
     }
 }
