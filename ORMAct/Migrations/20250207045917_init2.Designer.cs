@@ -12,8 +12,8 @@ using ORMAct.Data;
 namespace ORMAct.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250205084944_init")]
-    partial class init
+    [Migration("20250207045917_init2")]
+    partial class init2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,31 @@ namespace ORMAct.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("ORMAct.Model.AccountDetail", b =>
+                {
+                    b.Property<int>("AccountDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountDetailId"));
+
+                    b.Property<string>("AccountStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BuyerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("DateCreated")
+                        .HasColumnType("date");
+
+                    b.HasKey("AccountDetailId");
+
+                    b.HasIndex("BuyerId");
+
+                    b.ToTable("AccountDetails");
+                });
 
             modelBuilder.Entity("ORMAct.Model.Buyer", b =>
                 {
@@ -125,6 +150,17 @@ namespace ORMAct.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("TransactionProducts");
+                });
+
+            modelBuilder.Entity("ORMAct.Model.AccountDetail", b =>
+                {
+                    b.HasOne("ORMAct.Model.Buyer", "Buyer")
+                        .WithMany()
+                        .HasForeignKey("BuyerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Buyer");
                 });
 
             modelBuilder.Entity("ORMAct.Model.Transaction", b =>

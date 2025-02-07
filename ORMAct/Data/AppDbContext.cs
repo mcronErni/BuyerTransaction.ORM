@@ -14,6 +14,7 @@ namespace ORMAct.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<TransactionProduct> TransactionProducts { get; set; }
+        public DbSet<AccountDetail> AccountDetails { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

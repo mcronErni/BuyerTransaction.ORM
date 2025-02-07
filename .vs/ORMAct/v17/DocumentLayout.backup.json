@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250207045720_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ORMAct\\Migrations\\20250207045720_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\model\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\model\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\model\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\model\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\contract\\repository\\buyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\contract\\repository\\buyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\model\\transactionproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\model\\transactionproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\model\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\model\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\contract\\transactionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\contract\\transactionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|c:\\users\\extcrmh\\source\\repos\\ormact\\ormact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F8CD7B4-8FDA-48D2-AABB-717149BABE2C}|ORMAct\\ORMAct.csproj|solutionrelative:ormact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250205081624_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,15 +102,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionProduct.cs",
-              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\TransactionProduct.cs",
-              "RelativeDocumentMoniker": "ORMAct\\Model\\TransactionProduct.cs",
-              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\TransactionProduct.cs",
-              "RelativeToolTip": "ORMAct\\Model\\TransactionProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAkAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250207045720_init.cs",
+              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250207045720_init.cs",
+              "RelativeDocumentMoniker": "ORMAct\\Migrations\\20250207045720_init.cs",
+              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250207045720_init.cs",
+              "RelativeToolTip": "ORMAct\\Migrations\\20250207045720_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:43:37.407Z"
+              "WhenOpened": "2025-02-07T04:57:20.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountDetail.cs",
+              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\AccountDetail.cs",
+              "RelativeDocumentMoniker": "ORMAct\\Model\\AccountDetail.cs",
+              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\AccountDetail.cs",
+              "RelativeToolTip": "ORMAct\\Model\\AccountDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T04:44:47.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -112,14 +134,14 @@
               "RelativeDocumentMoniker": "ORMAct\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ORMAct\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T02:52:03.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\Product.cs",
               "RelativeDocumentMoniker": "ORMAct\\Model\\Product.cs",
@@ -131,19 +153,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Buyer.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\Buyer.cs",
               "RelativeDocumentMoniker": "ORMAct\\Model\\Buyer.cs",
               "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\Buyer.cs",
               "RelativeToolTip": "ORMAct\\Model\\Buyer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:33:39.409Z"
+              "WhenOpened": "2025-02-04T08:33:39.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\appsettings.json",
+              "RelativeDocumentMoniker": "ORMAct\\appsettings.json",
+              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\appsettings.json",
+              "RelativeToolTip": "ORMAct\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T07:51:15.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionProduct.cs",
+              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\TransactionProduct.cs",
+              "RelativeDocumentMoniker": "ORMAct\\Model\\TransactionProduct.cs",
+              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\TransactionProduct.cs",
+              "RelativeToolTip": "ORMAct\\Model\\TransactionProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:43:37.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "ORMAct\\Mapping\\MappingProfile.cs",
@@ -155,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BuyerRepository.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\Repository\\BuyerRepository.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\Repository\\BuyerRepository.cs",
@@ -163,12 +210,11 @@
               "RelativeToolTip": "ORMAct\\Contract\\Repository\\BuyerRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T05:42:13.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T05:42:13.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Program.cs",
               "RelativeDocumentMoniker": "ORMAct\\Program.cs",
@@ -180,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Model\\Transaction.cs",
               "RelativeDocumentMoniker": "ORMAct\\Model\\Transaction.cs",
@@ -192,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TransactionRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\TransactionRequestDTO.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\TransactionRequestDTO.cs",
@@ -204,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ORMAct.csproj",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\ORMAct.csproj",
               "RelativeDocumentMoniker": "ORMAct\\ORMAct.csproj",
@@ -216,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TransactionProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\TransactionProductDTO.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\TransactionProductDTO.cs",
@@ -228,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ProductRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\ProductRequestDTO.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\ProductRequestDTO.cs",
@@ -240,19 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\appsettings.json",
-              "RelativeDocumentMoniker": "ORMAct\\appsettings.json",
-              "ToolTip": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\appsettings.json",
-              "RelativeToolTip": "ORMAct\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T07:51:15.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20250205081624_init.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250205081624_init.cs",
               "RelativeDocumentMoniker": "ORMAct\\Migrations\\20250205081624_init.cs",
@@ -264,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20250205081535_v2.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Migrations\\20250205081535_v2.cs",
               "RelativeDocumentMoniker": "ORMAct\\Migrations\\20250205081535_v2.cs",
@@ -276,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\TransactionDTO.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\TransactionDTO.cs",
@@ -288,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IBuyerRepository.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\Interface\\IBuyerRepository.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\Interface\\IBuyerRepository.cs",
@@ -300,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\Interface\\ITransactionRepository.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\Interface\\ITransactionRepository.cs",
@@ -312,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\extcrmh\\source\\repos\\ORMAct\\ORMAct\\Contract\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "ORMAct\\Contract\\Interface\\IProductRepository.cs",

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ORMAct.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class init2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -41,6 +41,27 @@ namespace ORMAct.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.ProductId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "AccountDetails",
+                columns: table => new
+                {
+                    AccountDetailId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BuyerId = table.Column<int>(type: "int", nullable: false),
+                    AccountStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateCreated = table.Column<DateOnly>(type: "date", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AccountDetails", x => x.AccountDetailId);
+                    table.ForeignKey(
+                        name: "FK_AccountDetails_Buyers_BuyerId",
+                        column: x => x.BuyerId,
+                        principalTable: "Buyers",
+                        principalColumn: "BuyerId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -91,6 +112,11 @@ namespace ORMAct.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_AccountDetails_BuyerId",
+                table: "AccountDetails",
+                column: "BuyerId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_TransactionProducts_ProductId",
                 table: "TransactionProducts",
                 column: "ProductId");
@@ -104,6 +130,9 @@ namespace ORMAct.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "AccountDetails");
+
             migrationBuilder.DropTable(
                 name: "TransactionProducts");
 

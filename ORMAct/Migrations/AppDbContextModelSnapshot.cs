@@ -22,6 +22,31 @@ namespace ORMAct.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ORMAct.Model.AccountDetail", b =>
+                {
+                    b.Property<int>("AccountDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountDetailId"));
+
+                    b.Property<string>("AccountStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BuyerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("DateCreated")
+                        .HasColumnType("date");
+
+                    b.HasKey("AccountDetailId");
+
+                    b.HasIndex("BuyerId");
+
+                    b.ToTable("AccountDetails");
+                });
+
             modelBuilder.Entity("ORMAct.Model.Buyer", b =>
                 {
                     b.Property<int>("BuyerId")
@@ -122,6 +147,17 @@ namespace ORMAct.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("TransactionProducts");
+                });
+
+            modelBuilder.Entity("ORMAct.Model.AccountDetail", b =>
+                {
+                    b.HasOne("ORMAct.Model.Buyer", "Buyer")
+                        .WithMany()
+                        .HasForeignKey("BuyerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Buyer");
                 });
 
             modelBuilder.Entity("ORMAct.Model.Transaction", b =>
