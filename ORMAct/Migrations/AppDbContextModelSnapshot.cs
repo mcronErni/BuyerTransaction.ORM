@@ -42,7 +42,8 @@ namespace ORMAct.Migrations
 
                     b.HasKey("AccountDetailId");
 
-                    b.HasIndex("BuyerId");
+                    b.HasIndex("BuyerId")
+                        .IsUnique();
 
                     b.ToTable("AccountDetails");
                 });
@@ -54,10 +55,6 @@ namespace ORMAct.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BuyerId"));
-
-                    b.Property<string>("BuyerStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -152,8 +149,8 @@ namespace ORMAct.Migrations
             modelBuilder.Entity("ORMAct.Model.AccountDetail", b =>
                 {
                     b.HasOne("ORMAct.Model.Buyer", "Buyer")
-                        .WithMany()
-                        .HasForeignKey("BuyerId")
+                        .WithOne("AccountDetails")
+                        .HasForeignKey("ORMAct.Model.AccountDetail", "BuyerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -192,6 +189,9 @@ namespace ORMAct.Migrations
 
             modelBuilder.Entity("ORMAct.Model.Buyer", b =>
                 {
+                    b.Navigation("AccountDetails")
+                        .IsRequired();
+
                     b.Navigation("Transactions");
                 });
 

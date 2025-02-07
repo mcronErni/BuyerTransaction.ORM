@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORMAct")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024254039a38fec41e22ce5ec58d80903f8bba59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d02cf574d7acf3c5cb5a978e1bca499808d19cf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORMAct")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORMAct")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

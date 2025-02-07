@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ORMAct.Migrations
 {
     /// <inheritdoc />
-    public partial class init2 : Migration
+    public partial class init1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,8 +19,7 @@ namespace ORMAct.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MobileNo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    BuyerStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    MobileNo = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -114,7 +113,8 @@ namespace ORMAct.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_AccountDetails_BuyerId",
                 table: "AccountDetails",
-                column: "BuyerId");
+                column: "BuyerId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_TransactionProducts_ProductId",

@@ -17,9 +17,11 @@ namespace ORMAct.Model
 
         public string? MobileNo { get; set; }
         [Required]
-        public required string BuyerStatus { get; set; } // Active, Deleted, Deactivated, Banned
+        //public required string BuyerStatus { get; set; } // Active, Deleted, Deactivated, Banned
 
         public ICollection<Transaction>? Transactions { get; set; }
+
+        public AccountDetail AccountDetails{ get; set; }
 
     }
 }
